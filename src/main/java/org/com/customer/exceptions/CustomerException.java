@@ -13,11 +13,11 @@ public class CustomerException extends RuntimeException
    private static final long serialVersionUID = -1234567892321459821L;
    /**
     * 
-    * @param message
+    * @param msg
     */
-   public CustomerException( String message )
+   public CustomerException( String msg )
    {
-      super( message );
+      super( msg );
    }
    
    /**
